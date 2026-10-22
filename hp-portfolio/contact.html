@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>おひさまキッズ体操教室</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/d368999079.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+    </head>
+    <body id="top">
+        <!-- ヘッダー-->
+        <div id="wrapper">
+            <header class="hero-header">
+                <h1 class="header-logo">お問い合わせ｜おひさまキッズ体操教室</h1>
+                <nav class="header-nav sp-nav" id="nav">
+                    <div class="nav_close">
+                        <p id="batumaru">×</p>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="class-coach.html">クラス・コーチ紹介</a></li>
+                        <li><a href="index.html#price">料金案内</a></li>
+                        <li><a href="index.html#faq">よくあるご質問</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger" id="open_sanbonsen">
+                    <p id="marubatu">≡</p>
+                </div>
+            </header>
+            <!-- ヘッダーここまで -->
+            <h1 class="hero contact">お問い合わせ</h1>
+            <main>
+                <div class="form-oll">
+                    <form action="result.html">
+                        <p class="form-title">お問い合わせの種類<br>
+                            ※お問い合わせのみ方はお名前と連絡先、その他ご要望等の３か所のみご記載ください
+                            <select name="kind">
+                                <option value="1">無料体験のお申し込み</option>
+                                <option value="2">お問い合わせ</option>
+                            </select>
+                        </p>
+                        <p class="form-title">
+                            参加者（お子様）のお名前<br>
+                            <input type="text" name="subject"
+                                placeholder="森本 康二">
+                        </p>
+                        <p class="form-title">
+                            フリガナ<br>
+                            <input type="text" name="subject"
+                                placeholder="モリモト コウジ">
+                        </p>
+                        <p class="form-title">
+                            連絡先<br>
+                            <input type="text" name="subject"
+                                placeholder="11-1111-1111">
+                        </p>
+                        <p class="form-title">
+                            体験希望曜日<br>
+                            <div class="checkbox-flex">
+                                <div class="weekitem">
+                                    <input type="checkbox" name="how"
+                                        value="dayofweek">月<br>
+                                </div>
+                                <div class="weekitem">
+                                    <input type="checkbox" name="how"
+                                        value="dayofweek">火<br>
+                                </div>
+                                <div class="weekitem">
+                                    <input type="checkbox" name="how"
+                                        value="dayofweek">水<br>
+                                </div>
+                                <div class="weekitem">
+                                    <input type="checkbox" name="how"
+                                        value="dayofweek">木<br>
+                                </div>
+                                <div class="weekitem">
+                                    <input type="checkbox" name="how"
+                                        value="dayofweek">金<br>
+                                </div>
+                                <div class="weekitem">
+                                    <input type="checkbox" name="how"
+                                        value="dayofweek">土<br>
+                                </div>
+                            </div>
+                        </p>
+                        <p class="form-title">
+                            体験希望時間<br>
+                            <div class="checkbox-flex">
+                                <div class="timeitem">
+                                    <input type="checkbox" name="how"
+                                        value="time">10:15~11:05<br>
+                                </div>
+                                <div class="timeitem">
+                                    <input type="checkbox" name="how"
+                                        value="time">15:30~16:20<br>
+                                </div>
+                                <div class="timeitem">
+                                    <input type="checkbox" name="how"
+                                        value="time">16:40~17:30<br>
+                                </div>
+                            </div>
+                        </p>
+                        <p class="form-title">
+                            体操経験の有無<br>
+                            <div class="checkbox-flex">
+                                <div class="experienceitem">
+                                    <input type="checkbox" name="how"
+                                        value="experience">初めて<br>
+                                </div>
+                                <div class="experienceitem">
+                                    <input type="checkbox" name="how"
+                                        value="experience">学校の体育のみ<br>
+                                </div>
+                                <div class="experienceitem">
+                                    <input type="checkbox" name="how"
+                                        value="experience">他社で経験有<br>
+                                </div>
+                            </div>
+                        </p>
+                        <p>
+                            アレルギーや持病の有無<br>
+                            <div class="checkbox-flex">
+                                <div class="experienceitem">
+                                    <input type="checkbox" name="how"
+                                        value="experience">有<br>
+                                </div>
+                                <div class="experienceitem">
+                                    <input type="checkbox" name="how"
+                                        value="experience">無<br>
+                                </div>
+                            </div>
+                        </p>
+                        <p class="form-title">
+                            上記で有とお答えした方は下記をご記載ください<br>
+                            <input type="text" name="subject"
+                                placeholder="例：ハウスダスト　喘息等">
+                        </p>
+                        <p class="form-title">
+                            その他ご要望等があれば下記もご記載ください<br></p>
+                        <textarea name="message"></textarea>
+                        <p class="form-title">
+                            当教室を知ったきっかけ<br>
+                            <div class="checkbox-flex">
+                                <div class="lookitem">
+                                    <input type="checkbox" name="how"
+                                        value="magazine">SNS,Webサイト等を見て<br>
+                                </div>
+                                <div class="lookitem">
+                                    <input type="checkbox" name="how"
+                                        value="friend">知り合いの紹介で<br>
+                                </div>
+                                <div class="lookitem">
+                                    <input type="checkbox" name="how"
+                                        value="look">たまたま前を通りかかった<br>
+                                </div>
+                            </div>
+                        </p>
+                        <p class="form-title">
+                            体験をお申込みしたきっかけがあればご記載ください<br></p>
+                        <textarea name="message"></textarea>
+                        <p class="submit">
+                            <input type="submit" value="送信">
+                        </p>
+                    </form>
+                </div>
+            </main>
+            <!--　メインここまで　-->
+            <!-- フッター -->
+            <footer>
+                <div class="gotop">
+                    <a href="#top"><img src="images/gotop.jpg" width="150"
+                            alt="ページトップへ戻る"></a>
+                </div>
+                <div class="copyright">
+                    <div class="sns-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+                    <p>&copy; おひさまキッズ体操教室</p>
+                </div>
+            </footer>
+        </div>
+        <!-- フッターここまで -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script src="js/slick.min.js"></script>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
